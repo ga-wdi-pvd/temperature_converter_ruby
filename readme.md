@@ -1,11 +1,11 @@
 # Exercise: Temperature Converter
 
-Goal: create a program that can convert a temperature in Fahrenheit, Celsius or Kelvin to the other two units.
+Goal: create a program that can convert a temperature in fahrenheit, Celsius or Kelvin to the other two units.
 - Try the bonus goals if you have extra time!
 
 ## Setup
 
-* Fork and clone this repo to your computer.
+* Fork and clone this repo to your computer. (or just clone)
 * Write your code in  `temp_converter.rb`.
 * Test your code by running the following the terminal...
 
@@ -17,14 +17,14 @@ $ ruby temp_converter.rb
 
 Ask the user for two inputs and store them in their own variables...  
   1. A starting temperature value  
-  2. A temperature unit (e.g., F, C, K). Store each of those in a variable.  
+  2. A temperature unit (e.g., f, C, K). Store each of those in a variable.  
 
-Define a `convertTemp` method that takes those two user inputs as arguments.  
+Define a `convert_temp` method that takes those two user inputs as arguments.  
 
 Inside the method, create a conditional statement that contains a block for each unit of temperature. It will look something like this...  
 
 ```rb
-if temp_unit == "F"
+if temp_unit == "f"
   ...
 elsif temp_unit == "C"
   ...
@@ -33,16 +33,16 @@ else
 end
 ```
 
-Each conditional block should convert the starting temperature to its equivalent value in the other two units (e.g., F should be converted to C and K).  
+Each conditional block should convert the starting temperature to its equivalent value in the other two units (e.g., f should be converted to C and K).  
 * Conversion formulae: [http://www.csgnetwork.com/temp2conv.html](http://www.csgnetwork.com/temp2conv.html)
-* Sample temperatures: 32F = 0C = 273.15K
+* Sample temperatures: 32f = 0C = 273.15K
 
 Display the starting and converted values in the console.  
 * **NOTE:** You should only be displaying the starting and converted values for the temperature the user selected at the beginning.
 
 ```ruby
-# User selected "F" at the start of the program. So the output is...
-Fahrenheit: ...
+# User selected "f" at the start of the program. So the output is...
+fahrenheit: ...
 to Celsius: ...
 to Kelvin: ...
 ```

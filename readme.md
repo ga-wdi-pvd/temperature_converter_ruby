@@ -59,3 +59,5 @@ Keep the program running until the user decides to quit.
 * **HINT:** Requires a `while` loop.
 * When the program starts, the user should be prompted to enter a temperature OR quit the program.
 * After the program displays the starting/converted temperatures, it should return to the initial user prompt.
+
+[Original Repo: GA DC](https://github.com/ga-wdi-exercises/temperature_converter_ruby)

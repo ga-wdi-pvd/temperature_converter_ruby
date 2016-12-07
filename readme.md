@@ -15,13 +15,13 @@ $ ruby temp_converter.rb
 
 ## Instructions
 
-Ask the user for two inputs and store them in their own variables...  
-  1. A starting temperature value  
-  2. A temperature unit (e.g., f, C, K). Store each of those in a variable.  
+Ask the user for two inputs and store them in their own variables...
+  1. A starting temperature value
+  2. A temperature unit (e.g., f, C, K). Store each of those in a variable.
 
-Define a `convert_temp` method that takes those two user inputs as arguments.  
+Define a `convert_temp` method that takes those two user inputs as arguments.
 
-Inside the method, create a conditional statement that contains a block for each unit of temperature. It will look something like this...  
+Inside the method, create a conditional statement that contains a block for each unit of temperature. It will look something like this...
 
 ```rb
 if temp_unit == "f"
@@ -33,11 +33,11 @@ else
 end
 ```
 
-Each conditional block should convert the starting temperature to its equivalent value in the other two units (e.g., f should be converted to C and K).  
+Each conditional block should convert the starting temperature to its equivalent value in the other two units (e.g., f should be converted to C and K).
 * Conversion formulae: [http://www.csgnetwork.com/temp2conv.html](http://www.csgnetwork.com/temp2conv.html)
 * Sample temperatures: 32f = 0C = 273.15K
 
-Display the starting and converted values in the console.  
+Display the starting and converted values in the console.
 * **NOTE:** You should only be displaying the starting and converted values for the temperature the user selected at the beginning.
 
 ```ruby
@@ -47,7 +47,7 @@ to Celsius: ...
 to Kelvin: ...
 ```
 
-Feel free to turn to your tablemates for help!  
+Feel free to turn to your tablemates for help!
 
 ### Bonus 1
 
